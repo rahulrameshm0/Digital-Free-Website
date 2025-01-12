@@ -14,4 +14,13 @@ html {
   list-style: none;
   gap: 2rem;
   font-size: 1.8rem;
+  margin: auto;
+}
+.navbar__link {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+.navbar__link:first-child {
+  margin: auto;
 }/*# sourceMappingURL=main.css.map */

@@ -1,6 +1,6 @@
 body {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -8,12 +8,28 @@ html {
   font-size: 65.5%;
 }
 
+.navbar {
+  position: relative;
+}
 .navbar__list {
-  display: flex;
-  align-items: center;
   list-style: none;
-  gap: 2rem;
+  display: flex;
+  margin: auto;
   font-size: 1.8rem;
+  gap: 2rem;
+  padding: 1.5rem 2rem;
+}
+.navbar__logo {
+  position: absolute;
+  top: 0;
+  left: 4rem;
+  font-weight: 900;
+  font-size: 3.4rem;
+  padding: 1.5rem 2rem;
+}
+.navbar__link {
+  text-decoration: none;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
