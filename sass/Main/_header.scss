@@ -1,0 +1,58 @@
+.header{
+    background-color: $background-color-violet;
+    &__container{
+        padding: 15rem 0;
+        background-image: url(../img/blob-center.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    &__main{
+        display:flex;
+        align-items: center;
+        // justify-content: space-around;
+        padding: 2rem 4rem;
+        gap: 10rem;
+    }
+
+    &__content{}
+
+    &__about{
+     color: $color-primary;
+     font-size: 3.2rem;
+     line-height: 1.4;
+     word-spacing:0.5rem;
+     font-weight: 800;
+     margin-bottom: 2.4rem;
+  
+    }
+
+    &__text{
+        color: $color-primary;
+        font-size:1.4rem;
+        margin-bottom: 3.8rem;
+    }
+
+    &__link{
+        text-decoration: none;
+        font-size: $default-font-size;
+        margin: 1rem;
+        background-color: $color-primary;
+        color: $black-color;
+        padding: 1.5rem 3rem;
+        border-radius: 6rem;
+        box-shadow: 0 1rem 2rem rgba($black-color, 0.2);
+    }
+
+  
+    &__img--1{
+        height: 40%;
+        width: 50%;
+    }
+
+    &__img{
+        background-color: $background-color-violet;
+        height: auto;
+        width: 100%;
+    }
+}
