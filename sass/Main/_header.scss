@@ -33,16 +33,38 @@
         margin-bottom: 3.8rem;
     }
 
-    &__link{
-        text-decoration: none;
-        font-size: $default-font-size;
-        margin: 1rem;
-        background-color: $color-primary;
-        color: $black-color;
-        padding: 1.5rem 3rem;
-        border-radius: 6rem;
-        box-shadow: 0 1rem 2rem rgba($black-color, 0.2);
+    &__btn{
+        &--1{
+            text-decoration: none;
+            font-size: 1.6rem;
+            margin: 1rem;
+            background-color: $color-primary;
+            color: $black-color;
+            padding: 1.8rem 4rem;
+            border-radius: 6rem;
+            box-shadow: 0 1rem 2rem rgba($black-color, 0.2);
+            background-color:orange;
+            font-weight: 500;
+            transition: all 0.5s;
+
+            &:hover{
+                background-color: rgb(243, 178, 57);
+                box-shadow: 0 1rem 2rem rgba($black-color, 0.4);
+            }
+        }
+        &--2{
+            text-decoration: none;
+            font-size: 1.6rem;
+            margin: 1rem;
+            background-color: $color-primary;
+            color: $black-color;
+            padding: 1.8rem 4rem;
+            border-radius: 6rem;
+            box-shadow: 0 1rem 2rem rgba($black-color, 0.2);
+            font-weight: 500;
+        }
     }
+
 
   
     &__img--1{
