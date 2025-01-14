@@ -8,7 +8,6 @@
     }
     
     &__main{
-        overflow: visible;
         display:flex;
         align-items: center;
         // justify-content: space-around;
@@ -26,7 +25,6 @@
         animation-name: moveInTop;
         animation-duration:  1s;
         animation-timing-function:ease-out;
-        animation-fill-mode:forwards; 
     
     }
 
@@ -37,52 +35,61 @@
         animation-name: moveInTop;
         animation-duration:  1s;
         animation-timing-function:ease-out;
-        animation-fill-mode:forwards; 
     }
    
-        &__btn{
-            &--1{
-            text-decoration: none;
+    &__btn{
+        display: flex;
+        align-items: center;
+        &--1{
             font-size: 1.6rem;
             margin: 1rem;
-            background-color: $color-primary;
-            color: $black-color;
             padding: 1.8rem 4rem;
             border-radius: 6rem;
             box-shadow: 0 1rem 2rem rgba($black-color, 0.2);
             background-color:orange;
-            font-weight: 500;
             animation-name: moveInLeft;
-            animation-duration:  1s;
+            animation-duration:  0.8s;
             animation-timing-function:ease-out;
-            animation-fill-mode:forwards; 
-            animation-iteration-count: 1;
             transition: all 0.5s; 
 
+            
             &:hover{
                 background-color: rgb(243, 178, 57);
                 box-shadow: 0 1rem 2rem rgba($black-color, 0.4);
             }
+            
         }
-   
 
-        &--2{
-            text-decoration: none;
-            font-size: 1.6rem;
-            margin: 1rem;
-            background-color: $color-primary;
+        &--3{
             color: $black-color;
-            padding: 1.8rem 4rem;
-            border-radius: 6rem;
-            box-shadow: 0 1rem 2rem rgba($black-color, 0.2);
             font-weight: 500;
-            animation-name: moveInRight;
-            animation-duration:  1s;
-            animation-timing-function:ease-out;
-            animation-fill-mode:forwards; 
-            animation-iteration-count: 1; 
+            text-decoration: none;
         }
+
+        &--4{
+            text-decoration: none;
+            color: $black-color;
+            font-weight: 500;
+        }
+
+       
+   
+    
+    &--2{
+        text-decoration: none;
+        font-size: 1.6rem;
+        margin: 1rem;
+        background-color: $color-primary;
+        color: $black-color;
+        padding: 1.8rem 4rem;
+        border-radius: 6rem;
+        box-shadow: 0 1rem 2rem rgba($black-color, 0.2);
+        font-weight: 500;
+        animation-name: moveInRight;
+        animation-duration:  0.8s;
+        animation-timing-function:ease-out;
     }
+}
  
 
 
@@ -90,6 +97,10 @@
     &__img--1{
         height: 40%;
         width: 50%;
+        animation-name: zoomIn;
+        animation-duration:  0.8s;
+        animation-timing-function:ease-out;
+        // animation-iteration-count: 1; 
     }
 
     &__img{
