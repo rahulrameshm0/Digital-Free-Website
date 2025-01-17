@@ -1,6 +1,7 @@
 .section-feature{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    padding: 18% 0;
+    padding: 15% 0;
     gap:2rem;
 }
