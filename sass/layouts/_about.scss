@@ -1,0 +1,39 @@
+.about{
+    &__us{
+     color: orange;  
+     font-size: $default-font-size;
+     font-weight: 400;
+     text-transform: uppercase;
+    }
+
+    &__head{
+        font-size: 4.2rem;
+        font-weight: 800;
+    }
+    &__text{
+        font-size: $default-font-size;
+        margin-top: 1.8rem;
+        color: rgb(206, 202, 202);
+    }
+    &__btn{
+        border: 0;
+        background-color: $background-color-violet;
+        color:$color-primary;
+        padding: 1.5rem 3.5rem;
+        font-size: $default-font-size;
+        border-radius: 5rem;
+        margin-top: 1.4rem;
+        transition: all 0.3s;
+        font-weight: 600;
+
+        &:hover{
+            box-shadow: 0 1rem  2rem rgba($black-color,0.4);
+            background-color: rgb(81, 11, 157);
+        }
+    }
+}
+
+.about__img{
+        height: 80vh;
+        width: 80%;
+}
