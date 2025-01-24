@@ -247,7 +247,7 @@ html {
 
 .section-team {
   margin-top: 15.4rem;
-  padding: 10rem;
+  padding: 6rem;
   color: #fff;
   background-color: rgb(88, 16, 196);
 }
@@ -285,8 +285,23 @@ html {
 }
 .testimonial__list {
   list-style: none;
-  font-size: 2.4rem;
-  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.testimonial__items {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.testimonial__items :first-child {
+  width: 23.6rem;
+  height: 8.4rem;
+  color: orange;
+  font-weight: 800;
+}
+.testimonial__items:nth-child(2) {
+  font-size: 3.4rem;
+  font-weight: 800;
 }
 
 @media (max-width: 450px) {
