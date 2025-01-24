@@ -245,6 +245,13 @@ html {
   gap: 1.8rem;
 }
 
+.section-team {
+  margin-top: 15.4rem;
+  padding: 10rem;
+  color: #fff;
+  background-color: rgb(88, 16, 196);
+}
+
 .container {
   text-align: center;
   background-color: rgb(242, 247, 247);
@@ -267,6 +274,19 @@ html {
 }
 .container:hover {
   transform: translateY(-1.5rem) scale(1.03);
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2.4rem;
+}
+.testimonial__list {
+  list-style: none;
+  font-size: 2.4rem;
+  font-weight: 300;
 }
 
 @media (max-width: 450px) {

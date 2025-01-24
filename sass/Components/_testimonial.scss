@@ -1,0 +1,13 @@
+.testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2.4rem;
+
+    &__list{
+        list-style: none;
+        font-size: 2.4rem;
+        font-weight: 300;
+}
+}
