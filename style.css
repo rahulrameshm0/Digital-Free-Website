@@ -247,7 +247,7 @@ html {
 
 .section-team {
   margin-top: 15.4rem;
-  padding: 6rem;
+  padding: 6rem 0;
   color: #fff;
   background-color: rgb(88, 16, 196);
 }
@@ -274,6 +274,36 @@ html {
 }
 .container:hover {
   transform: translateY(-1.5rem) scale(1.03);
+}
+
+.section__img {
+  position: relative;
+}
+.section__img .section__left {
+  position: absolute;
+  top: -6rem;
+  left: 0rem;
+}
+.section__img .section__right {
+  position: absolute;
+  top: -6rem;
+  left: 115rem;
+}
+.section__img .section__bottomleft {
+  position: absolute;
+  bottom: -27rem;
+  left: 0;
+}
+.section__img .section__bottomright {
+  position: absolute;
+  bottom: -27rem;
+  left: 115rem;
+}
+.section__img .section__center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .testimonial {

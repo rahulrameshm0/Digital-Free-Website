@@ -1,3 +1,33 @@
+.section__img{
+    position: relative;
+    .section__left{
+        position:absolute;
+        top: -6rem;
+        left: 0rem;
+    }
+    .section__right{
+        position: absolute;
+        top: -6rem;
+        left: 115rem;
+    }
+    .section__bottomleft{
+        position: absolute;
+        bottom: -27rem;
+        left: 0;
+    }
+    .section__bottomright{
+        position: absolute;
+        bottom: -27rem;
+        left: 115rem;
+    }
+    .section__center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
 .testimonial{
     display: flex;
     align-items: center;
