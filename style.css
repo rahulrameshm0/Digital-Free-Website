@@ -247,7 +247,7 @@ html {
 
 .section-team {
   margin-top: 15.4rem;
-  padding: 6rem 0;
+  padding: 8rem;
   color: #fff;
   background-color: rgb(88, 16, 196);
 }
@@ -281,23 +281,23 @@ html {
 }
 .section__img .section__left {
   position: absolute;
-  top: -6rem;
-  left: 0rem;
+  top: -8rem;
+  left: -8rem;
 }
 .section__img .section__right {
   position: absolute;
-  top: -6rem;
-  left: 115rem;
+  top: -8rem;
+  left: 107rem;
 }
 .section__img .section__bottomleft {
   position: absolute;
-  bottom: -27rem;
-  left: 0;
+  bottom: -25rem;
+  left: -8rem;
 }
 .section__img .section__bottomright {
   position: absolute;
   bottom: -27rem;
-  left: 115rem;
+  left: 107rem;
 }
 .section__img .section__center {
   position: absolute;
@@ -311,21 +311,22 @@ html {
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 2.4rem;
+  gap: 12.4rem;
 }
 .testimonial__list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.4rem;
+  font-weight: 300;
 }
 .testimonial__items {
   font-weight: 500;
   font-size: 1.4rem;
 }
 .testimonial__items :first-child {
-  width: 23.6rem;
-  height: 8.4rem;
+  width: 5rem;
+  height: 5.4rem;
   color: orange;
   font-weight: 800;
 }
