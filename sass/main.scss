@@ -6,17 +6,13 @@
 @import "Main/header";
 
 
-@import "Base/animation";
-@import "Base/base.scss";
+@import "base/animation";
+@import "base/base.scss";
 
-@import"Pages/home";
+@import "Pages/home";
 
-@import"Components/feature";
-@import"Components/testimonial";
 
+@import "Components/feature";
+@import "Components/testimonial";
 
 @import "Responsive/media";
-
-
-
-
