@@ -14,18 +14,25 @@
     <title>DGital Agency</title>
 </head>
 <body>
-    <nav class="navbar">
-        <ul class="navbar__list">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
             <h1 class="navbar__logo">DGital</h1>
-            <li class="navbar__items"><a class="navbar__link--1" href="#">Home</a></li>
-            <li class="navbar__items"><a class="navbar__link" href="#">About</a></li>
-            <li class="navbar__items"><a class="navbar__link" href="#">Service</a></li>
-            <li class="navbar__items"><a class="navbar__link" href="#">Project</a></li>
-            <li class="navbar__items"><a class="navbar__link" href="#">Pages +</a></li>
-            <li class="navbar__items"><a class="navbar__link" href="#">Contact</a></li>
-            <li class="navbar__items"><a class="navbar__link--2" href="#">Get Started</a></li>
-        </ul>
-   </nav>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar__list">
+                    <li class="navbar__items"><a class="navbar__link--1" href="#">Home</a></li>
+                    <li class="navbar__items"><a class="navbar__link" href="#">About</a></li>
+                    <li class="navbar__items"><a class="navbar__link" href="#">Service</a></li>
+                    <li class="navbar__items"><a class="navbar__link" href="#">Project</a></li>
+                    <li class="navbar__items"><a class="navbar__link" href="#">Pages +</a></li>
+                    <li class="navbar__items"><a class="navbar__link" href="#">Contact</a></li>
+                    <li class="navbar__items"><a class="navbar__link--2" href="#">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <header class="header">
         <div class="header__container">
@@ -109,10 +116,11 @@
             </div>
        </section>
     </main>
-    <script>AOS.init();</script>
 
-    <!-- bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <!-- <script src="js/bootstrap.js"></script> -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
