@@ -116,6 +116,64 @@
   width: 50%;
 }
 
+h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.skill-container {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill {
+  margin: 15px 0;
+  text-align: left;
+}
+.skill p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.skill-progress-bg {
+  background-color: #eee;
+  width: 100%;
+  height: 8px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.skill-progress-fill {
+  height: 100%;
+  border-radius: 10px;
+  animation: progressbar-fill 3s linear;
+}
+
+.react {
+  width: 80%;
+  background: linear-gradient(to right, rgb(141, 44, 216) 50%, rgb(88, 16, 196) 100%);
+}
+
+.javascript {
+  width: 85%;
+  background: linear-gradient(to right, rgb(141, 44, 216) 50%, rgb(88, 16, 196) 100%);
+}
+
+.css {
+  width: 90%;
+  background: linear-gradient(to right, rgb(141, 44, 216) 50%, rgb(88, 16, 196) 100%);
+}
+
+@keyframes progressbar-fill {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(-width);
+  }
+}
 .header {
   background-color: rgb(88, 16, 196);
 }
@@ -273,7 +331,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1.8rem;
+  gap: 10.8rem;
 }
 
 .section-team {

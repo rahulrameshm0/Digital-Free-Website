@@ -37,3 +37,61 @@
         height: 70vh;
         width: 50%;
 }
+
+h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.skill-container {
+    font-size: 1.4rem; 
+    display: flex;
+    flex-direction: column;  
+}
+
+
+.skill {
+    margin: 15px 0;
+    text-align: left;
+
+    p {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+}
+
+.skill-progress-bg {
+    background-color: #eee;
+    width: 100%;
+    height: 8px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.skill-progress-fill {
+    height: 100%;
+    border-radius: 10px;
+    animation: progressbar-fill 3s linear;
+}
+
+.react {
+    @include progress-bar(80%);
+}
+
+.javascript {
+    @include progress-bar(85%);
+}
+
+.css {
+    @include progress-bar(90%);
+}
+
+@keyframes progressbar-fill {
+    from {
+        width: 0;
+    }
+    to {
+        width: var(-width);
+    }
+}

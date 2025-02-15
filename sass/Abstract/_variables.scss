@@ -6,3 +6,9 @@ $black-color: #000;
 
 // FONT SIZES
 $default-font-size: 1.6rem;
+
+// MIXINS
+@mixin progress-bar($width) {
+    width: $width;
+    background: linear-gradient(to right, rgb(141, 44, 216) 50%, $background-color-violet 100%);
+}
