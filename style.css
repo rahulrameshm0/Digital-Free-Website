@@ -283,6 +283,20 @@ html {
   background-color: rgb(88, 16, 196);
 }
 
+.service-section {
+  margin-top: 10.4rem;
+  text-align: center;
+}
+.service-section h4 {
+  text-transform: uppercase;
+  color: orange;
+}
+.service-section h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
 .container {
   text-align: center;
   background-color: rgb(242, 247, 247);
@@ -599,6 +613,62 @@ html {
   .container:hover {
     transform: translateY(-0.3rem) scale(1.01);
   }
+}
+.service {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 6rem 0;
+  gap: 2rem;
+}
+.service__features {
+  background-color: rgb(249, 246, 246);
+  padding: 4.6rem 2.6rem;
+  border-radius: 1.4rem;
+  transition: all 0.3s;
+}
+.service__features .icon_rapper {
+  background-color: rgb(88, 16, 196);
+  transform: rotate(45deg);
+  display: inline-flex;
+  font-size: 3rem;
+  padding: 1rem 1.6rem;
+  border-radius: 1.4rem;
+}
+.service__features .icon_rapper .bi {
+  color: #fff;
+  transform: rotate(-45deg);
+  display: inline-block;
+}
+.service__features h3 {
+  margin-top: 2.4rem;
+  font-size: 2rem;
+}
+.service__features p {
+  margin-top: 1.6rem;
+  font-size: 1.4rem;
+}
+.service__features .service__btn {
+  display: hidden;
+  text-decoration: none;
+  font-size: 2rem;
+  color: orange;
+  margin-top: 1.6rem;
+}
+.service__features .service__btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.service__features:hover {
+  background-color: rgb(88, 16, 196);
+  color: #fff;
+  transform: translateY(-1rem);
+}
+.service__features:hover .icon_rapper {
+  background-color: orange;
+}
+.service__features:hover .icon_rapper .bi {
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */

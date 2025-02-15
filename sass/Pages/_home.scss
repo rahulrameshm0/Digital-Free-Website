@@ -19,3 +19,18 @@
     color: $color-primary;
     background-color: $background-color-violet;
 }
+
+.service-section{
+    margin-top: 10.4rem;    
+    text-align: center;
+    h4{
+        text-transform: uppercase;
+        color: orange;
+      }
+
+    h2{
+        font-size: 4rem;
+        font-weight: 800;
+        text-transform: capitalize;
+      }
+}

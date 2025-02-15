@@ -1,0 +1,63 @@
+.service{
+      display: grid;    
+      grid-template-columns: repeat(3, 1fr);
+      align-items: center;
+      padding: 6rem 0;
+      gap:2rem;
+      
+      &__features{
+          background-color: rgb(249, 246, 246);
+          padding: 4.6rem 2.6rem;
+          border-radius: 1.4rem;
+          transition: all 0.3s;
+          
+            .icon_rapper{
+                background-color: $background-color-violet;
+                transform: rotate(45deg);
+                display: inline-flex;
+                font-size: 3rem;
+                padding: 1rem 1.6rem;
+                border-radius: 1.4rem;
+            
+                .bi{
+                    color: $color-primary;
+                    transform: rotate(-45deg);
+                    display: inline-block;
+                }
+            }
+
+            h3{
+                margin-top: 2.4rem;
+                font-size: 2rem;
+            }
+
+            p{
+                margin-top: 1.6rem;
+                font-size: 1.4rem;
+            }
+
+            .service__btn{
+                display: hidden;
+                text-decoration: none;
+                font-size: 2rem;
+                color: $color-secondary;
+                margin-top: 1.6rem;
+                &:hover{
+                    opacity: 0.8;
+                    cursor: pointer;
+                }
+            }
+
+            &:hover{
+                background-color: $background-color-violet;
+                color: $color-primary;
+                transform: translateY(-1rem);
+                .icon_rapper{
+                    background-color: orange;
+                    .bi{
+                        color: $black-color;
+                    }
+                }
+            }
+        }
+}
