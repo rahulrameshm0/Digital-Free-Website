@@ -86,12 +86,3 @@ h2 {
 .css {
     @include progress-bar(90%);
 }
-
-@keyframes progressbar-fill {
-    from {
-        width: 0;
-    }
-    to {
-        width: var(-width);
-    }
-}

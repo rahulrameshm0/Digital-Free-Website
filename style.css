@@ -166,14 +166,6 @@ h2 {
   background: linear-gradient(to right, rgb(141, 44, 216) 50%, rgb(88, 16, 196) 100%);
 }
 
-@keyframes progressbar-fill {
-  from {
-    width: 0;
-  }
-  to {
-    width: var(-width);
-  }
-}
 .header {
   background-color: rgb(88, 16, 196);
 }
@@ -303,6 +295,14 @@ h2 {
   100% {
     opacity: 1;
     transform: scale(1);
+  }
+}
+@keyframes progressbar-fill {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(-width);
   }
 }
 * {
