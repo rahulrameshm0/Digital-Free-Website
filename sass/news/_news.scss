@@ -1,0 +1,36 @@
+.email{
+    color: #fff;
+    &__head1{
+        color: orange;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+    }
+
+    &__head2{
+        margin-top: 1.4rem;
+        font-size: 4rem;
+        font-weight: 800;
+    }
+
+    &__p{
+        font-size: $default-font-size;
+        margin-top: 1.4rem;
+    }
+
+    form{
+        margin-top: 2.8rem;
+        input{
+            width: 60%;
+            height:7vh;
+            border-radius: 5rem;
+            outline: none;
+            border: 1px solid lightgray;
+        }
+        input[type="email"]{
+         font-size: 1.5rem;
+         padding-left: 1.8rem;   
+         text-transform: capitalize;
+        }
+    }
+
+}

@@ -355,6 +355,12 @@ html {
   text-transform: capitalize;
 }
 
+.news-section {
+  text-align: center;
+  background-color: rgb(88, 16, 196);
+  padding: 3.5rem;
+}
+
 .container {
   text-align: center;
   background-color: rgb(242, 247, 247);
@@ -727,6 +733,39 @@ html {
 }
 .service__features:hover .icon_rapper .bi {
   color: #000;
+}
+
+.email {
+  color: #fff;
+}
+.email__head1 {
+  color: orange;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+.email__head2 {
+  margin-top: 1.4rem;
+  font-size: 4rem;
+  font-weight: 800;
+}
+.email__p {
+  font-size: 1.6rem;
+  margin-top: 1.4rem;
+}
+.email form {
+  margin-top: 2.8rem;
+}
+.email form input {
+  width: 60%;
+  height: 7vh;
+  border-radius: 5rem;
+  outline: none;
+  border: 1px solid lightgray;
+}
+.email form input[type=email] {
+  font-size: 1.5rem;
+  padding-left: 1.8rem;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=style.css.map */
